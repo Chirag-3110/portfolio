@@ -1,0 +1,60 @@
+.body-bar{
+    /* background-color: #83abc1; */
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 425px;
+    flex-direction: column;
+}
+.skill{
+    width: 210px;
+    height: 210px;
+    margin: 50px;
+    /* background-color: cornflowerblue; */
+    position: relative;
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* align-items: center; */
+    /* justify-content: space-between; */
+}
+.outer{
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    padding: 25px;
+    box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+                -6px -6px 10px -1px rgba(255,255,255,0.7)
+}
+.inner{
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    box-shadow:inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2),
+               inset -4px -4px 6px -1px rgba(255,255,255,0.7);
+} 
+.number,h1{
+    font-weight: bold;
+    color: #555
+}
+.javascriptcircle{
+    fill: none;
+    stroke:url(#GradientColor);
+    stroke-width: 25px;
+    stroke-dasharray: 500px;
+    stroke-dashoffset: 400px;
+    animation: javascriptanim 2s linear forwards;
+}
+@keyframes javascriptanim{
+    100%{
+        stroke-dashoffset: 30;
+    }
+}
+svg{
+    position: absolute;
+    top:0;
+    left: 0;
+}
