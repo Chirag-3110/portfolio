@@ -4,11 +4,11 @@ function CppBar(){
     let [number,setNumber]=useState(0);
     useEffect(()=>{
         setInterval(()=>{
-            if(number!=70){
+            if(number!==70){
                 setNumber(++number);
             }
         },55);
-    },[])
+    },[number])
     return(
         <>
            <div className="body-bar">

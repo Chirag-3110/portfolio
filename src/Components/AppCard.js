@@ -1,6 +1,6 @@
 import React from 'react';
 import './Card.css';
-import IPHONE from './ThreeDPhone';
+// import IPHONE from './ThreeDPhone';
 function AndroidCard() {
   return (
     <div className="card-container">
@@ -9,7 +9,7 @@ function AndroidCard() {
           {/* <img src='https://www.mindinventory.com/blog/wp-content/uploads/2021/01/IoT-the-future-of-mobile-app-development.png'
             alt='App Development'
           /> */}
-          <IPHONE/>
+          {/* <IPHONE/> */}
         </div>
         <div className='content'>
           <div className='details'>

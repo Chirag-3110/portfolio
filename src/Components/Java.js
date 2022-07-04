@@ -4,11 +4,11 @@ function JavaBar(){
     let [number,setNumber]=useState(0);
     useEffect(()=>{
         setInterval(()=>{
-            if(number!=60){
+            if(number!==60){
                 setNumber(++number);
             }
         },62);
-    },[])
+    },[number])
     return(
         <>
            <div className="body-bar">

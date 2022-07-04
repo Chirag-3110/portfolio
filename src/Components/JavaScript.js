@@ -4,11 +4,11 @@ function JavaSciptBar(){
     let [number,setNumber]=useState(0);
     useEffect(()=>{
         setInterval(()=>{
-            if(number!=80){
+            if(number!==80){
                 setNumber(++number);
             }
         },50);
-    },[])
+    },[number])
     return(
         <>
            <div className="body-bar">

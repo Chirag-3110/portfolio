@@ -1,4 +1,4 @@
-import React ,{useEffect, useState} from 'react';
+import React ,{ useState} from 'react';
 import { motion } from 'framer-motion';
 import './ProjectCss.css'
 function ProjectCard(props){
@@ -20,6 +20,7 @@ function ProjectCard(props){
                         <div >
                             <img
                                 src={props.uri}
+                                alt="project"
                             />
                         </div>
                         <div>

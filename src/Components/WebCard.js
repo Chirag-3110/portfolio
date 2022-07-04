@@ -6,7 +6,7 @@ function WebCard() {
     <div className="card-container-web">
       <div className='card-web'>
         <div className='imgBox-web'>
-          <LAPTOP/>
+          {/* <LAPTOP/> */}
         </div>
         <div className='content-web'>
           <div className='details-web'>

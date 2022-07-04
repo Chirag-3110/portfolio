@@ -4,11 +4,11 @@ function CBar(){
     let [number,setNumber]=useState(0);
     useEffect(()=>{
         setInterval(()=>{
-            if(number!=65){
+            if(number!==65){
                 setNumber(++number);
             }
         },60);
-    },[])
+    },[number])
     return(
         <>
            <div className="body-bar">
